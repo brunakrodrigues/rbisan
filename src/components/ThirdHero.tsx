@@ -2,15 +2,13 @@
 
 import {
   Badge,
-  Box,
-  Button,
   Container,
   Flex,
   Heading,
   Image,
   Stack,
   Text,
-  useBreakpointValue,
+  useBreakpointValue
 } from '@chakra-ui/react'
 
 export default function ThirdHero() {

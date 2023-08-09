@@ -1,22 +1,17 @@
 'use client'
 
 import {
-  Container,
-  Stack,
-  Flex,
   Box,
-  Heading,
-  Text,
-  Button,
-  Image,
-  Icon,
-  IconButton,
-  createIcon,
-  IconProps,
-  useColorModeValue,
+  Container,
   Divider,
-  VStack,
-} from '@chakra-ui/react'
+  Flex,
+  Heading,
+  IconButton,
+  Image,
+  Stack,
+  Text,
+  VStack
+} from '@chakra-ui/react';
 
 import myImage from '../assets/wp9.jpg';
 

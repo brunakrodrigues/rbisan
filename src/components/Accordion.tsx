@@ -1,5 +1,4 @@
 import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, ListItem, UnorderedList } from '@chakra-ui/react';
-import React from 'react';
 
 export default function CustomAccordion() {
   return (
@@ -12,7 +11,6 @@ export default function CustomAccordion() {
               flex='1'
               textAlign='left'
               color={'#F68B1F'}
-              // _expanded={{ color: 'white' }}  // Adicionado para mudar a cor do Box quando o AccordionButton estiver expandido
             >
               FINANÇAS:
             </Box>

@@ -1,22 +1,17 @@
 'use client'
 
 import {
-  Container,
-  Stack,
-  Flex,
   Box,
+  Container,
+  Flex,
   Heading,
-  Text,
-  Button,
-  Image,
-  Icon,
   IconButton,
-  createIcon,
-  IconProps,
-  useColorModeValue,
+  Image,
   ListItem,
-  UnorderedList,
-} from '@chakra-ui/react'
+  Stack,
+  Text,
+  UnorderedList
+} from '@chakra-ui/react';
 
 import myImage from '../assets/wp8.jpg';
 

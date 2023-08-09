@@ -2,7 +2,6 @@
 
 import {
   Box,
-  Button,
   Container,
   Flex,
   Grid,
@@ -14,12 +13,12 @@ import {
   Stack,
   Text,
   UnorderedList,
-  useBreakpointValue,
-} from '@chakra-ui/react'
+  useBreakpointValue
+} from '@chakra-ui/react';
 
+import instagram from '../assets/instagram.png';
+import linkedin from '../assets/linkedin.png';
 import profile from '../assets/lu.png';
-import linkedin from '../assets/linkedin.png'
-import instagram from '../assets/instagram.png'
 
 export default function ProfileTwo() {
   return (

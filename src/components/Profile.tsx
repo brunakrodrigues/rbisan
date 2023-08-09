@@ -2,7 +2,6 @@
 
 import {
   Box,
-  Button,
   Container,
   Flex,
   Grid,
@@ -14,11 +13,11 @@ import {
   Stack,
   Text,
   UnorderedList,
-  useBreakpointValue,
-} from '@chakra-ui/react'
+  useBreakpointValue
+} from '@chakra-ui/react';
 
+import linkedin from '../assets/linkedin.png';
 import profile from '../assets/perfil.jpeg';
-import linkedin from '../assets/linkedin.png'
 
 export default function Profile() {
   return (

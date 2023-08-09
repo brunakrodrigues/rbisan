@@ -1,8 +1,7 @@
 'use client'
 
-import { ReactElement } from 'react'
-import { Box, SimpleGrid, Image, Text, Stack, Button, Flex, Heading } from '@chakra-ui/react'
-// import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc'
+import { Box, Button, Flex, Heading, Image, SimpleGrid, Stack, Text } from '@chakra-ui/react';
+import { ReactElement } from 'react';
 import zero from '../assets/0.png';
 import um from '../assets/1.png';
 import dois from '../assets/2.png';
@@ -22,7 +21,7 @@ interface FeatureProps {
   image: ReactElement
 }
 
-const Feature = ({ title, image, icon }: FeatureProps) => {
+const Feature = ({ title, image }: FeatureProps) => {
   return (
     <Stack>
       <Flex

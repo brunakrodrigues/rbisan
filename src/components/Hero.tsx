@@ -89,9 +89,16 @@ export default function HeroHome() {
           align={'center'}
           position={'relative'}
           w={'full'}>
-          <iframe width="600" height="350" src="https://www.youtube.com/embed/3zdeJMJIMFQ" title="Programas de Fidelidade como fidelizar seus clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe
+            width="600"
+            height="350"
+            src="https://www.youtube.com/embed/3zdeJMJIMFQ"
+            title="Programas de Fidelidade como fidelizar seus clientes"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen></iframe>
         </Flex>
       </Stack>
     </Container>
   )
-};
+}

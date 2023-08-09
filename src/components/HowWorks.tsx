@@ -7,13 +7,8 @@ import {
   Box,
   Heading,
   Text,
-  Button,
   Image,
-  Icon,
   IconButton,
-  createIcon,
-  IconProps,
-  useColorModeValue,
 } from '@chakra-ui/react'
 
 import myImage from '../assets/wp2.jpg';
